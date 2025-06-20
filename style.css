@@ -1,0 +1,366 @@
+body {
+    background-color: #C3B1E1;
+}
+
+header{
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+ 
+
+
+section{
+    min-height: 100vh;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+}
+
+section#home {
+    padding-top: 60px; /* Adjust 60px to actual navbar height stopping the text being hidden */
+  }
+
+.home-header {
+    text-align:center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    display:flex;
+}
+
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 65px; /* Space between items */
+    margin-right: 50px;
+    font-size: 1.2rem;
+    line-height: 1.6; 
+
+}
+
+/* .download-btn {
+    padding: 8px 16px;
+    border: 1px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-family: inherit;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  } */
+  
+  /* .download-btn:hover {
+    background-color: #575757;
+  } */
+  
+  
+.cv-download-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center; /* Vertically centers items (optional) */
+    margin-top: 20px; /* Optional spacing from header */
+    }
+    
+
+  .download-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    }
+
+
+    .download-button:hover {
+    background-color: #575757;
+    transform: translateY(-10px);
+    }
+
+.linkedin-view-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center; /* Vertically centers items (optional) */
+    margin-top: 20px; /* Optional spacing from header */
+    }
+
+    .linkedin-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    }
+
+    .linkedin-button:hover {
+    background-color: #575757;
+    transform: translateY(-10px);
+    }
+
+#about {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-header {
+    text-align:center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* Set up a flex container for the layout */
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    text-align: left;
+    gap: 100px;
+}
+
+/* Style for the content section to ensure headers and paragraphs align with images */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 65px; /* Space between items */
+    margin-right: 50px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center; /* Align images in the center */
+    justify-content: flex-start;
+} 
+
+/* Make all images the same size and ensure they are responsive */
+ .about-images img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    /* max-height: 500px; */
+    border-radius: 10px;
+    object-fit: cover;
+ }
+
+/* For smaller screens (below 768px) */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center; /* Center the content vertically on smaller screens */
+    }
+
+    .about-images {
+        flex-direction: row;
+        justify-content: space-around; /* Space images evenly across row */
+    }
+
+    .about-images img {
+        width: 45%; /* Adjust the image width when in row on smaller screens */
+        max-width: 250px; /* Limit the width for smaller devices */
+    }
+
+    .about-content {
+        text-align: center; /* Center the text on small screens */
+    }
+}
+
+/* Ensure content and images stay aligned and proportional
+@media (min-width: 769px) {
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    } */
+/* {
+    .about-images {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+} */
+
+.experience-header {
+    text-align:center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    display:flex;
+}
+
+#portfolio {
+
+    padding: 40px 20px;
+    display:flex; 
+    flex-direction:column;
+
+}
+
+
+.portfolio-header {
+    text-align:center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    display:flex;
+}
+
+.portfolio-container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+    margin-right: 20px; 
+}
+
+.portfolio-card {
+    background-color: #fff;
+    border: 1.5px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align:center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.portfolio-card button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portfolio-card button:hover {
+    background-color: #575757;
+
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup-content {
+    position: relative; /* Make popup-content the relative container */
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    /* text-align: center; */
+}
+
+.popup-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ 
+.popup-content p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+ 
+
+.close {
+    position: absolute;/* Absolute position relative to popup-content */
+    top: 15px;
+    right: 15px;
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 7.5px 12.5px;
+    cursor: pointer;
+    border-radius: 2.5px;
+    font-size: 1.2rem;
+    line-height: 1;
+    z-index: 10;
+    
+}
+
+.close:hover {
+    background-color: #ff1a1a;
+}
+
+
+.format-layout {
+
+    display: flex;
+    flex-direction: column;
+}
+.contact-header {
+    text-align:center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    display:flex;
+}
