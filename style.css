@@ -229,15 +229,35 @@ section#home {
     margin-bottom: 40px;
     display:flex;
 }
+
 .experience-container {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    padding: 0 20px;
-    margin-right: 20px; 
+  display: flex;
+  flex-direction: row; /* Align text and image side by side */
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 20px;
 }
+
+.experience-content {
+  flex: 2;
+  min-width: 300px;
+}
+
+.experience-images {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* Make all images the same size and ensure they are responsive */
+ .experience-images img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
 
 #portfolio {
 
