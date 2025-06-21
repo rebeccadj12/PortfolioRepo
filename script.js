@@ -14,7 +14,7 @@ const closeButton = document.querySelector('.close');
 // The project details object
 const projectDetails = {
     project1: {
-      title: "Presenting",
+      title: "Product",
       context: [
         "Overview: I led a project from discovery through to delivery, focused on improving a highly manual and time-critical red business process used by our operations team. This process was client-facing and had to be completed on the first working day of each month, meaning any delays could have commercial consequences.",
       ],
