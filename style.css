@@ -93,7 +93,7 @@ section#home {
     
 
   .download-button {
-    background-color: #333;
+    background-color: #7f3939;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -105,7 +105,7 @@ section#home {
 
 
     .download-button:hover {
-    background-color: #575757;
+    background-color: #5f4040;
     transform: translateY(-10px);
     }
 
@@ -117,7 +117,7 @@ section#home {
     }
 
     .linkedin-button {
-    background-color: #333;
+    background-color: #5085b6;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -128,7 +128,7 @@ section#home {
     }
 
     .linkedin-button:hover {
-    background-color: #575757;
+    background-color: #3b6287;
     transform: translateY(-10px);
     }
 
