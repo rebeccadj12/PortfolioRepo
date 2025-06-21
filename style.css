@@ -60,28 +60,29 @@ section#home {
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 65px; /* Space between items */
+    gap: 15px; /* Space between items */
     margin-right: 50px;
-    font-size: 1.2rem;
-    line-height: 1.6; 
+    /* font-size: 1.2rem; */
+    /* line-height: 1.6;  */
 
 }
 
-/* .download-btn {
-    padding: 8px 16px;
-    border: 1px solid #333;
-    background-color: transparent;
-    color: #333;
-    font-family: inherit;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: all 0.2s ease-in-out;
-  } */
-  
-  /* .download-btn:hover {
-    background-color: #575757;
-  } */
-  
+#home {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+    margin-right: 20px; 
+}
+
   
 .cv-download-container {
     display: flex;
@@ -215,29 +216,27 @@ section#home {
     }
 }
 
-/* Ensure content and images stay aligned and proportional
-@media (min-width: 769px) {
-    .about-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-    } */
-/* {
-    .about-images {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-} */
+
+#experience {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 .experience-header {
     text-align:center;
     font-size: 1.5rem;
     margin-bottom: 40px;
     display:flex;
+}
+.experience-container {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+    margin-right: 20px; 
 }
 
 #portfolio {
