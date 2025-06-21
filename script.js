@@ -59,7 +59,7 @@ const projectDetails = {
         "Outcome: This was extremely positively received, with many senior stakeholders commenting on the usefulness and their interest in the weekly reports. The report became more wide spread throughout the year reaching new areas of the business.",
         ],
         keySkills: [
-        "Key Skills: Reporting, commericial awareness, business knowledge.",
+        "Key Skills: Proposition, commericial awareness, business knowledge.",
         ]
     
     },
